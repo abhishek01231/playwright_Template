@@ -1,0 +1,23 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report",
+    "test:headed": "playwright test --headed",
+    "test:reports": "npm run test && npm run test:report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.3",
+    "dotenv": "^16.3.1",
+    "@faker-js/faker": "^8.0.2",
+    "allure-playwright": "^2.0.0"
+  }
+}
