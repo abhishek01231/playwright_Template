@@ -19,5 +19,6 @@
     "dotenv": "^16.3.1",
     "@faker-js/faker": "^8.0.2",
     "allure-playwright": "^2.0.0"
+    ,"csv-parse": "^5.4.0"
   }
 }
